@@ -23,3 +23,30 @@ color: yellow;
  .blue {
  	color: blue;
  }
+
+ .red ~ h4 {
+ 	background-color: red;
+ }
+
+ .blue ~ h4 {
+ 	background-color: blue;
+ }
+ .promo {
+ 	font-weight: bold;
+ 	color: gold;
+ }
+
+footer input[type="text"]{
+	height: 25px;
+}
+
+div.grandparent > h4{
+	border-radius: 1px;
+    border: 1px solid orange; 
+}
+
+
+
+
+
+
